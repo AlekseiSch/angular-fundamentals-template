@@ -1,4 +1,10 @@
 <div class="app-button">
   <!-- Replace the text below with your code -->
-  Button
+  <button
+      [class]="buttonClass"
+      [attr.aria-label]="buttonText"
+    >
+      <fa-icon *ngIf="iconName" [icon]="iconName"></fa-icon>
+      <span *ngIf="buttonText">{{ buttonText }}</span>
+    </button>
 </div>
