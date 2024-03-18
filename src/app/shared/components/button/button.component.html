@@ -1,12 +1,4 @@
-<button 
-  class="app-button"
-  [type]="type"
-  (click)="onClickHandler($event)"
-  [ngClass]="{ 
-    'app-button__form': !iconName, 
-    'app-button__icon': iconName 
-  }">
+<div class="app-button">
   <!-- Replace the text below with your code -->
-  {{ buttonText }}
-  <fa-icon *ngIf="iconName" [icon]="iconName" />
-</button>
+  Button
+</div>

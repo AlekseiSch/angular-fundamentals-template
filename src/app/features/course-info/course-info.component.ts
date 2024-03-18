@@ -1,5 +1,4 @@
-import { Component, Input } from '@angular/core';
-import { Course } from '@app/types';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-course-info',
@@ -8,5 +7,4 @@ import { Course } from '@app/types';
 })
 export class CourseInfoComponent {
   // Use the names for the input `course`.
-  @Input() course: Course = {} as Course;
 }
